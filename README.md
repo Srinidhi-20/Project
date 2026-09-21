@@ -1,6 +1,6 @@
-# QuickBite – Food Delivery Management System
+# Food Delivery Management System
 
-A database-driven Food Delivery Management System developed using Oracle Database, Node.js, Express.js, and HTML/CSS/JavaScript.
+A database-driven **Food Delivery Management System** developed using Oracle Database, Node.js, Express.js, and HTML/CSS/JavaScript.
 
 ## Features
 
@@ -14,59 +14,54 @@ A database-driven Food Delivery Management System developed using Oracle Databas
 
 ## Technologies
 
-Frontend: HTML, CSS, JavaScript
-Backend: Node.js, Express.js
-Database: Oracle SQL
-Authentication: JWT, bcrypt
-Tools: VS Code, Git, GitHub
+* **Frontend:** HTML, CSS, JavaScript
+* **Backend:** Node.js, Express.js
+* **Database:** Oracle SQL
+* **Authentication:** JWT, bcrypt
+* **Tools:** VS Code, Git, GitHub
 
 ## Project Structure
 
 ```text
 QuickBite/
-│
 ├── backend/
-│   ├── package.json
-│   ├── package-lock.json
-│   └── server.js
-│
 ├── database/
-│   └── schema.sql
-│
 ├── frontend/
-│   └── index.html
-│
-├── .gitignore
 ├── grant.sql
 ├── package-lock.json
-└── README.md
+└── .gitignore
+```
 
 ## How to Run
 
 ### 1. Clone the repository
 
-bash
+```bash
 git clone https://github.com/Srinidhi-20/Project.git
 cd Project
+```
 
 ### 2. Install dependencies
 
-bash
+```bash
 cd backend
 npm install
+```
 
 ### 3. Configure Oracle Database
 
 Run the SQL files:
 
+```text
 database/schema.sql
 grant.sql
+```
 
 ### 4. Start the backend
 
-bash
+```bash
 node server.js
-
+```
 
 ### Author
 
