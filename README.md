@@ -22,15 +22,24 @@ Tools: VS Code, Git, GitHub
 
 ## Project Structure
 
-
+```text
 QuickBite/
+│
 ├── backend/
+│   ├── package.json
+│   ├── package-lock.json
+│   └── server.js
+│
 ├── database/
+│   └── schema.sql
+│
 ├── frontend/
+│   └── index.html
+│
+├── .gitignore
 ├── grant.sql
 ├── package-lock.json
-└── .gitignore
-
+└── README.md
 
 ## How to Run
 
