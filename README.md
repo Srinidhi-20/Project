@@ -61,6 +61,6 @@ node server.js
 
 ### Author
 
-**Srinidhi Rajesh**
+**Srinidhi.R**
 B.E. Computer Science and Engineering
 Sona College of Technology
